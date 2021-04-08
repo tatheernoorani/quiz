@@ -1,0 +1,324 @@
+/*
+Theme Name: Artpop
+Description: Used to style the TinyMCE editor.
+*/
+
+body {
+	background-color: #fff;
+	max-width: 760px;
+}
+body,
+button,
+input,
+select,
+textarea {
+	color: #2c2d2e;
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.75;
+	vertical-align: baseline;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+	font-family: 'Inter', sans-serif;
+	color: #000;
+}
+h1 {
+	font-size: 36px;
+	line-height: 1.25;
+}
+h2 {
+	font-size: 28px;
+	line-height: 1.5;
+}
+h3 {
+	font-size: 24px;
+	line-height: 1.5;
+}
+h4 {
+	font-size: 21px;
+	line-height: 1.5;
+}
+h5 {
+	font-size: 14px;
+	text-transform: uppercase;
+	line-height: 1.5;
+}
+h6 {
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+h1, h2, h3 {
+	margin: 20px 0 10px;
+}
+h4, h5, h6 {
+	margin: 10px 0 5px;
+}
+p {
+	margin: 0 0 20px;
+	line-height: 1.75;
+}
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+	margin-top: 0;
+}
+b,
+strong {
+	font-weight: 700;
+}
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+small {
+	font-size: 75%;
+}
+big {
+	font-size: 125%;
+}
+a {
+	color: #6fcacc;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: #6fcacc;
+}
+
+/* Elements */
+hr {
+	border: 0;
+	height: 1px;
+	background-color: rgba(0,0,0,.08);
+	margin: 2rem auto;
+}
+ul,
+ol {
+	margin: 0 0 2rem 1.5rem;
+	padding: 0 0 0 1.5rem;
+}
+ul {
+	list-style: disc;
+}
+ol {
+	list-style: decimal;
+}
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 1.5rem;
+}
+blockquote {
+	quotes: "" "";
+	position: relative;
+	margin: 2rem 0;
+	padding: 0 1rem;
+	font-style: italic;
+}
+blockquote p {
+	position: relative;
+	margin: 1rem 0;
+	font-size: 1.125rem;
+}
+blockquote p:first-child {
+	padding-top: 2rem;
+}
+blockquote p:last-child {
+	margin-bottom: 0;
+}
+blockquote:before {
+	content: "\201D";
+	font-family: serif;
+	position: absolute;
+	display: block;
+	text-align: center;
+	top: -4px;
+	left: 8px;
+	font-size: 6rem;
+	line-height: 48px;
+	font-weight: 700;
+	font-style: normal;
+	color: currentColor;
+}
+blockquote:after {
+	content: "";
+}
+blockquote cite {
+	display: block;
+	margin-top: 0.5rem;
+	font-style: normal;
+	font-size: 0.875rem;
+	color: #9D9E9E;
+}
+blockquote cite:before {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	height: 1px;
+	width: 32px;
+	margin-right: 8px;
+	background-color: rgba(0,0,0,.08);
+}
+address {
+	margin: 0 0 0.5rem;
+}
+pre {
+	margin-bottom: 20px;
+	max-width: 100%;
+	overflow: auto;
+	font-family: "Courier 10 Pitch", Courier, monospace;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.5;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+code,
+kbd,
+tt,
+var {
+	font-family: Menlo, Consolas, monospace;
+	font-size: 14px;
+	font-size: 0.875rem;
+}
+code {
+	background-color: rgba(0,0,0,.08);
+	padding: 2px 4px;
+	line-height: 1.75;
+}
+abbr,
+acronym {
+	border-bottom: 1px dotted #4b4c4d;
+	cursor: help;
+}
+mark,
+ins {
+	text-decoration: none;
+}
+mark {
+	background: #fff9c0;
+}
+small {
+	font-size: 75%;
+}
+big {
+	font-size: 125%;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+td,
+th {
+	padding: 16px;
+	border: 1px solid rgba(0,0,0,.08);
+}
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+/* Alignments */
+.alignleft {
+	display: inline;
+	float: left;
+	margin: 0 20px 10px 0;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin: 0 0 10px 20px;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 20px auto;
+}
+
+/* Galleries */
+.gallery {
+	margin: 0 -10px 20px;
+}
+.gallery-item {
+	display: inline-block;
+	width: 100%;
+	margin: 0 auto 20px;
+	padding: 0 10px;
+	text-align: center;
+	vertical-align: top;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.gallery-icon img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	border: none;
+}
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+.gallery-columns-3 .gallery-item {
+	max-width: 33.3333%;
+}
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+.gallery-columns-6 .gallery-item {
+	max-width: 16.6666%;
+}
+.gallery-columns-7 .gallery-item {
+	max-width: 14.2857%;
+}
+.gallery-columns-8 .gallery-item {
+	max-width: 12.5%;
+}
+.gallery-columns-9 .gallery-item {
+	max-width: 11.1111%;
+}
+.gallery-columns-10 .gallery-item {
+	max-width: 10%;
+}
+
+/* Captions */
+.wp-caption {
+	border: none;
+	max-width: 100%;
+	margin-bottom: 10px;
+}
+.wp-caption-text,
+.gallery-caption {
+	display: block;
+	margin: 10px 0 0;
+	font-size: 14px;
+	font-size: 0.875rem;
+	text-align: center;
+	line-height: 1.5;
+	color: #888;
+}
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

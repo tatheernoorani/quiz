@@ -1,0 +1,669 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Artpop\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-15 13:10+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.3; wp-5.5.1"
+
+#: inc/template-tags.php:89
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:70
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:88
+msgid "1 Comment"
+msgstr ""
+
+#: inc/customizer/customizer.php:202
+msgid ""
+"A default fallback image will be used when a post is missing a featured image."
+" (Only on Homepage and Archives)"
+msgstr ""
+
+#: functions.php:106
+msgid "Accent Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:481
+msgid "Accent color"
+msgstr ""
+
+#: inc/customizer/customizer.php:318
+msgid "Add a custom Blog Title to your Homepage."
+msgstr ""
+
+#: inc/customizer/customizer.php:328
+msgid ""
+"Add a custom text below Blog Title. HTML tags are allowed: strong, em, b, i, "
+"br."
+msgstr ""
+
+#. To add an additional character subset specific to your language, translate this to 'greek', 'cyrillic', 'devanagari' or 'vietnamese'. Do not translate into your own language.
+#: functions.php:188
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr ""
+
+#: functions.php:250 functions.php:259 functions.php:268 functions.php:277
+#: functions.php:287
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:649
+msgid "All categories"
+msgstr ""
+
+#: inc/customizer/customizer.php:87
+msgid "Archive"
+msgstr ""
+
+#: inc/customizer/customizer.php:409
+msgid "Archive Layout"
+msgstr ""
+
+#. Name of the theme
+msgid "Artpop"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Artpop is a beautiful Gutenberg-first WordPress theme, carefully designed to "
+"help you build your online brand. Unleash your creativity, Artpop takes care "
+"of the rest! Well documented and easy to use even for WordPress beginners, "
+"Artpop is perfect for a blog, personal portfolio, small business website, and "
+"WooCommerce storefront. Easily set your logo, change colors, and create "
+"awesome layouts to give your website a truly unique look."
+msgstr ""
+
+#: inc/customizer/customizer.php:57
+msgid "Artpop Links"
+msgstr ""
+
+#: inc/customizer/customize-pro/class-customize.php:77
+msgid "Artpop Pro"
+msgstr ""
+
+#: inc/customizer/customizer.php:397
+msgid "Avoid duplicate posts"
+msgstr ""
+
+#: functions.php:111
+msgid "Black"
+msgstr ""
+
+#: inc/customizer/customizer.php:317
+msgid "Blog Title"
+msgstr ""
+
+#: inc/customizer/customizer.php:327
+msgid "Blog Title Description"
+msgstr ""
+
+#: inc/customizer/customizer.php:379
+msgid "Carousel (6 Posts)"
+msgstr ""
+
+#: inc/customizer/customizer.php:386
+msgid "Category"
+msgstr ""
+
+#: inc/customizer/customizer.php:365
+msgid "Check this option to display Featured Posts at the top of the Homepage."
+msgstr ""
+
+#: inc/woocommerce.php:53
+msgid "Checkout"
+msgstr ""
+
+#: comments.php:51
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:64
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: comment count number.
+#: comments.php:33
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:116
+msgid "Dark"
+msgstr ""
+
+#: inc/getting_started.php:59
+msgid "Demo Content"
+msgstr ""
+
+#. Author of the theme
+#: footer.php:52
+msgid "Design Lab"
+msgstr ""
+
+#: inc/customizer/customizer.php:433
+msgid "Display Author Bio"
+msgstr ""
+
+#: inc/customizer/customizer.php:423
+msgid "Display Breadcrumbs Navigation"
+msgstr ""
+
+#: inc/customizer/customizer.php:201
+msgid "Display Fallback Image"
+msgstr ""
+
+#: inc/customizer/customizer.php:364
+msgid "Display Featured Posts"
+msgstr ""
+
+#: inc/customizer/customizer.php:266
+msgid "Display Search Icon"
+msgstr ""
+
+#: inc/customizer/customizer.php:256 inc/customizer/customizer.php:444
+msgid "Display Social Icons"
+msgstr ""
+
+#: inc/customizer/customizer.php:305
+msgid "Display Tagline below Site Title/Logo"
+msgstr ""
+
+#: inc/customizer/customizer.php:275
+msgid "Display WooCommerce Cart Link"
+msgstr ""
+
+#: inc/customizer/customizer.php:424
+msgid ""
+"Display Yoast SEO breadcrumbs at the top of the Post. (Yoast SEO 2.3 or "
+"higher is required)"
+msgstr ""
+
+#: inc/getting_started.php:44
+msgid "Documentation"
+msgstr ""
+
+#: inc/getting_started.php:67
+msgid "Download Demo Content"
+msgstr ""
+
+#. %s: Name of current post
+#: inc/template-tags.php:115
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/customizer/customizer.php:135
+msgid "Enable Sidebar on Archive and Search pages"
+msgstr ""
+
+#: inc/customizer/customizer.php:126
+msgid "Enable Sidebar on Blog Homepage"
+msgstr ""
+
+#: inc/customizer/customizer.php:168
+msgid "Enable Sidebar on Shop and Product Archive"
+msgstr ""
+
+#: inc/customizer/customizer.php:144
+msgid "Enable Sidebar on Single Post"
+msgstr ""
+
+#: inc/customizer/customizer.php:178
+msgid "Enable Sidebar on Single Product Page"
+msgstr ""
+
+#: inc/customizer/customizer.php:398
+msgid "Enable this option to remove Featured Posts from the Homepage."
+msgstr ""
+
+#: inc/customizer/customizer.php:295
+msgid ""
+"Enter a value in pixel. The Logo image will fit all the available space, "
+"depends on the Site Header Layout."
+msgstr ""
+
+#: inc/customizer/customizer.php:193
+msgid "Fallback Image"
+msgstr ""
+
+#: functions.php:480
+msgid "Fallback image"
+msgstr ""
+
+#: inc/customizer/customizer.php:82
+msgid "Featured Posts"
+msgstr ""
+
+#: inc/getting_started.php:47
+#, php-format
+msgid ""
+"Follow our detailed <a href=\"%s\" target=\"_blank\">documentation</a> to "
+"help you to setup and use this theme."
+msgstr ""
+
+#: inc/customizer/controls.php:45
+msgid "Follow Us on Instagram"
+msgstr ""
+
+#: inc/customizer/controls.php:49
+msgid "Follow Us on Twitter"
+msgstr ""
+
+#: inc/customizer/customizer.php:97
+msgid "Footer"
+msgstr ""
+
+#: functions.php:42
+msgid "Footer Menu"
+msgstr ""
+
+#: footer.php:34
+msgid "Footer Navigation"
+msgstr ""
+
+#: functions.php:257
+msgid "Footer Widget Area 1"
+msgstr ""
+
+#: functions.php:266
+msgid "Footer Widget Area 2"
+msgstr ""
+
+#: functions.php:275
+msgid "Footer Widget Area 3"
+msgstr ""
+
+#. Name of the template
+msgid "Full Width Template"
+msgstr ""
+
+#: inc/getting_started.php:28
+msgid "Getting started"
+msgstr ""
+
+#: functions.php:121
+msgid "Gray"
+msgstr ""
+
+#: inc/customizer/customizer.php:378
+msgid "Grid (5 Posts)"
+msgstr ""
+
+#: inc/customizer/customizer.php:347 inc/customizer/customizer.php:413
+msgid "Grid 2 Columns"
+msgstr ""
+
+#: inc/customizer/customizer.php:348 inc/customizer/customizer.php:414
+msgid "Grid 3 Columns"
+msgstr ""
+
+#: inc/customizer/customizer.php:71
+msgid "Header"
+msgstr ""
+
+#: inc/customizer/customizer.php:231
+msgid "Header Layout"
+msgstr ""
+
+#: inc/customizer/customizer.php:239
+msgid "Header Options"
+msgstr ""
+
+#: functions.php:466
+msgid "Home"
+msgstr ""
+
+#: inc/customizer/customizer.php:51
+msgid "Homepage"
+msgstr ""
+
+#: inc/customizer/customizer.php:76 inc/customizer/customizer.php:343
+msgid "Homepage Layout"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.designlabthemes.com/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.designlabthemes.com/artpop-wordpress-theme/"
+msgstr ""
+
+#: functions.php:96
+msgid "Huge"
+msgstr ""
+
+#: inc/template-tags.php:72
+msgid "in"
+msgstr ""
+
+#: functions.php:179
+msgctxt "Inter: on or off"
+msgid "on"
+msgstr ""
+
+#: 404.php:23
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: template-parts/post/content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching "
+"can help."
+msgstr ""
+
+#: searchform.php:15
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: functions.php:86
+msgid "Large"
+msgstr ""
+
+#: functions.php:91
+msgid "Larger"
+msgstr ""
+
+#: inc/customizer/customizer.php:374
+msgid "Layout"
+msgstr ""
+
+#: inc/template-tags.php:87
+msgid "Leave a comment"
+msgstr ""
+
+#: functions.php:126
+msgid "Light Gray"
+msgstr ""
+
+#: inc/customizer/customizer.php:294
+msgid "Logo Max Width (Desktop and Tablet)"
+msgstr ""
+
+#: functions.php:40
+msgid "Main Menu"
+msgstr ""
+
+#: template-parts/navigation/navigation-main.php:11
+msgid "Main Navigation"
+msgstr ""
+
+#: inc/customizer/customizer.php:67
+msgid "Main Theme Settings."
+msgstr ""
+
+#: template-parts/navigation/navigation-mobile.php:14
+msgid "Mobile Navigation"
+msgstr ""
+
+#: inc/getting_started.php:75
+msgid "Need more customizations and flexibility?"
+msgstr ""
+
+#: inc/customizer/customizer.php:210 inc/customizer/customizer.php:284
+#: inc/customizer/customizer.php:354 inc/customizer/customizer.php:489
+msgid "Need more options?"
+msgstr ""
+
+#: comments.php:54
+msgid "Newer Comments"
+msgstr ""
+
+#: single.php:25
+msgid "Next"
+msgstr ""
+
+#: single.php:26
+msgid "Next post:"
+msgstr ""
+
+#. Name of the template
+msgid "No Sidebar Template"
+msgstr ""
+
+#: functions.php:81
+msgid "Normal"
+msgstr ""
+
+#: search.php:20 template-parts/post/content-none.php:16
+msgid "Nothing Found"
+msgstr ""
+
+#: comments.php:53
+msgid "Older Comments"
+msgstr ""
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: template-parts/page/content-page.php:34
+#: template-parts/post/content-single.php:45
+msgid "Pages:"
+msgstr ""
+
+#: searchform.php:16
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: inc/icon-functions.php:44
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: inc/icon-functions.php:39
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: inc/customizer/customizer.php:92
+msgid "Post"
+msgstr ""
+
+#: inc/getting_started.php:76
+msgid ""
+"Premium Support, more Theme options, One Click Demo Content Import and more."
+msgstr ""
+
+#: single.php:28
+msgid "Previous"
+msgstr ""
+
+#: single.php:29
+msgid "Previous post:"
+msgstr ""
+
+#: functions.php:183
+msgctxt "Quicksand: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/customizer/controls.php:41
+msgid "Rate This Theme"
+msgstr ""
+
+#: template-parts/post/content-none.php:23
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/customizer/customizer.php:387
+msgid "Select a category."
+msgstr ""
+
+#: inc/customizer/customizer.php:77
+msgid "Settings for Blog Homepage (Your Homepage displays your Latest Posts)"
+msgstr ""
+
+#: inc/customizer/customizer.php:88
+msgid "Settings for Category, Tag, Search and Archive Pages."
+msgstr ""
+
+#: inc/customizer/customizer.php:93
+msgid "Settings for Single Post."
+msgstr ""
+
+#: inc/customizer/customizer.php:98
+msgid "Settings for Site Footer."
+msgstr ""
+
+#: inc/customizer/customizer.php:72
+msgid "Settings for Site Header."
+msgstr ""
+
+#: inc/customizer/customizer.php:62
+msgid "Settings for Site Logo."
+msgstr ""
+
+#: functions.php:285
+msgid "Shop Sidebar"
+msgstr ""
+
+#: functions.php:319
+msgid "Show sub menu"
+msgstr ""
+
+#: functions.php:248
+msgid "Sidebar"
+msgstr ""
+
+#: inc/customizer/customizer.php:118
+msgid "Sidebar Options"
+msgstr ""
+
+#: inc/customizer/customizer.php:61
+msgid "Site Logo"
+msgstr ""
+
+#: inc/customizer/customizer.php:66
+msgid "Site Options"
+msgstr ""
+
+#: inc/customizer/customizer.php:465
+msgid "Site Tagline color"
+msgstr ""
+
+#: inc/customizer/customizer.php:456
+msgid "Site Title color"
+msgstr ""
+
+#: functions.php:310
+msgid "Skip to the content"
+msgstr ""
+
+#: functions.php:76
+msgid "Small"
+msgstr ""
+
+#: template-parts/navigation/navigation-social.php:11
+msgid "Social Links"
+msgstr ""
+
+#: functions.php:41
+msgid "Social Menu"
+msgstr ""
+
+#: search.php:54
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: inc/customizer/customizer.php:247
+msgid "Sticky header on scroll"
+msgstr ""
+
+#: searchform.php:20
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: inc/getting_started.php:34
+#, php-format
+msgid "Thanks for choosing %s Theme!"
+msgstr ""
+
+#: inc/getting_started.php:52 inc/customizer/controls.php:37
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/customizer/controls.php:33
+msgid "Theme Homepage"
+msgstr ""
+
+#: inc/customizer/customizer.php:257 inc/customizer/customizer.php:445
+msgid ""
+"To add Social Icons create a new menu, add custom links to your Social Media "
+"and assign the menu to Social Menu location."
+msgstr ""
+
+#: footer.php:52
+#, php-format
+msgctxt "Translators: $s = name of the theme developer"
+msgid "Theme by %s"
+msgstr ""
+
+#: inc/getting_started.php:74 inc/customizer/controls.php:29
+#: inc/customizer/controls.php:160
+msgid "Try Artpop Pro"
+msgstr ""
+
+#: inc/customizer/customize-pro/class-customize.php:76
+msgid "Try the Pro version"
+msgstr ""
+
+#: inc/template-tags.php:56
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr ""
+
+#: template-parts/post/entry-author-bio.php:17
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: inc/getting_started.php:78
+msgid "View Artpop Pro"
+msgstr ""
+
+#: functions.php:131
+msgid "White"
+msgstr ""
+
+#: inc/customizer/customizer.php:159
+msgid "WooCommerce Sidebar"
+msgstr ""
+
+#: functions.php:658
+msgid "Y"
+msgstr ""
+
+#: inc/getting_started.php:62
+#, php-format
+msgid ""
+"You can <a href=\"%s\" target=\"_blank\">install our demo content</a> to give "
+"you a head start in setting up your site."
+msgstr ""

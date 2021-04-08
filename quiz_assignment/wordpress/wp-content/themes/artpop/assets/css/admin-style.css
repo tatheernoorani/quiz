@@ -1,0 +1,77 @@
+/*
+Theme Name: Artpop
+Description: Used to style Getting Started Page.
+*/
+
+.dl-getting-started {
+	width: 100%;
+	margin: 24px 0;
+	color: #444;
+}
+.dl-getting-started:before,
+.dl-getting-started:after {
+	content: '';
+	display: table;
+}
+.dl-getting-started:after {
+	clear: both;
+}
+.dl-column {
+	position: relative;
+	display: block;
+	margin-bottom: 24px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.large-icon {
+	text-align: center;
+	font-size: 60px;
+	width: 100px;
+	height: 60px;
+	display: block;
+	margin: 10px auto 0;
+}
+.about-wrap .dl-content {
+	padding: 15px;
+	border: 1px solid #e5e5e5;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+	background: #fff;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.about-wrap .dl-content h3 {
+	text-align: center;
+	margin: 1em 0;
+}
+.about-wrap .dl-content p {
+	font-size: 16px;
+}
+.about-wrap .dl-content h4 {
+	margin: 0.5em 0;
+}
+
+/* @media query */
+
+@media all and (min-width: 600px) {
+	.dl-flex-row {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-direction: row;
+		flex-direction: row;
+		-webkit-flex-wrap: wrap;
+		flex-wrap: wrap;
+		margin: 0 -10px;
+	}
+	.dl-column {
+		padding: 0 10px;
+		width: 50%;
+	}
+	.dl-content {
+		height: 100%;
+	}
+}
+@media all and (min-width: 980px) {
+	.dl-column {
+		width: 33.333334%;
+	}
+}

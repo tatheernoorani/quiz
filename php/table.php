@@ -9,7 +9,7 @@
             'name' => 'John',
             'email' => 'John@yopmail.com',
             'grade' => 'B'
-        ),
+ ),
         array(
             'name' => 'Sam',
             'email' => 'sam@yopmail.com',
@@ -21,7 +21,6 @@
             'grade' => 'C'
         ),
     ];
-    
 ?>
 <!DOCTYPE html>
 <html>
@@ -29,24 +28,21 @@
     
     </head>
     <body>
-        <table style="border: 6  px solid;">
-        <table style="color: pink;">
+        <table>
             <tr>
                 <th>NAME</th>
                 <th>EMAIL</th>
                 <th>GRADE</th>
             </tr>
             <?php
-                foreach($_student_record as $key => $value){
+foreach($_student_record as $key => $value){
                     echo "<tr>";
+
                     foreach($value as $k => $v){
-                       
-                        // echo "<br/>";
                         echo "<td>$v</td>"; // Get value.
-                        // echo "<br/>";
-                        
                     }
-                    echo "<tr>";
+                    
+                    echo "</tr>";
                 }
             ?>
         </table>
